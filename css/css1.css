@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: green;
+    padding: 30px;
+    color: white;
+    width: 300px;
+}
+
+input {
+    background-color: rgb(219, 219, 219);
+    border: 2px solid black;
+    padding: 15px 10px;
+    outline: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+} input[type=button]:hover {
+    cursor: pointer;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+#clear {
+    background-image: url(../imgs/1.webp);
+    width: 50px;
+    background-size: cover;
+    background-position: center;
+}
